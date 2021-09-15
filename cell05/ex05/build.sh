@@ -1,17 +1,12 @@
 #!/bin/bash
 
-for dir in $@
-do
-  if [ -d $dir ]
-  then
-    echo “La capeta $dir ya existe.”
-Else
-    mkdir $dir
-    if [ $? -eq 0 +
-    then
-      echo “$dir se ha creaco con éxito”
-    else
-      echo “Ups! Algo ha fallado al crear $dir”
-    fi
-  fi
+count=0;
+
+if [ $# == 0 ]; then
+	echo No arguments supplied
+fi
+
+for i in $@; do
+	mkdir ex$i
+	count=$((count + 1))
 done

@@ -3,7 +3,7 @@
 count=0;
 
 if [ $# == 0 ]; then
-	echo Que pasa
+	echo Argument Error.
 fi
 
 for i in $@; do
