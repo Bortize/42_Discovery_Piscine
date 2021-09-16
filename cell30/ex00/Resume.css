@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 0px solid black;
+}
+
+table {
+	width: 100%;
+	height: 600px;
+}
+
+.personal-header {
+	background-color: yellow;
+}
+
+.personal-header > th {
+	padding: 10px;
+}
+
+#name {
+	font-size: 40px;
+}
+x
+#job {
+	font-size: 28px;
+}
+
+.contact-header {
+	font-size: 20px;
+
+	padding: 0px;
+}
+
+.contact-body {
+	font-size: 20px;
+}
+
+.contact-icon {
+	font-size: 20px;
+	text-align: center;
+}
+
+.contact-icon > a {
+	background: #73AD21;
+	color: #fff;
+	padding: 10px;
+}
+
+.contact-icon > i {
+
+}
+
+
+#social-header, #skills-header {
+	text-align: right;
+	padding-right: 10px;
+}
+#avatar {
+
+}
