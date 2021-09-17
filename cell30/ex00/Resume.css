@@ -1,15 +1,17 @@
 body {
-	margin: 0;
+	margin: 300px;
 	padding: 0;
+	background-color: rgb(230, 199, 100)
 }
 table {
+	margin-top: -200px;
 	border-collapse: collapse;
 }
 
 table,
 th,
 td {
-	border: 0px solid black;
+	border: 2px solid black;
 }
 
 table {
@@ -18,11 +20,12 @@ table {
 }
 
 .personal-header {
-	background-color: yellow;
+	background-color: rgb(230, 199, 100)
 }
 
 .personal-header > th {
 	padding: 10px;
+	text-align: center;
 }
 
 #name {
@@ -35,12 +38,14 @@ x
 
 .contact-header {
 	font-size: 20px;
-
+	font-weight: 10;
+	text-align: right;
 	padding: 0px;
 }
 
 .contact-body {
 	font-size: 20px;
+	text-align: right;
 }
 
 .contact-icon {
@@ -49,13 +54,15 @@ x
 }
 
 .contact-icon > a {
-	background: #73AD21;
+	background: #000000;
 	color: #fff;
 	padding: 10px;
 }
 
-.contact-icon > i {
-
+.contact-icon >  {
+	background: #000000;
+	color: #fff;
+	padding: 10px;
 }
 
 
@@ -65,4 +72,25 @@ x
 }
 #avatar {
 
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: right;
+	margin-right: 200px;
+}
+h3 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 24px;
+	letter-spacing: 3.8px;
+	word-spacing: -4.4px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
 }
